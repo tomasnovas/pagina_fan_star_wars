@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripcion</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="body">
+    <header class="header" >
+        <a  href="../index.html"> <img class="header__img" src="../img/pngwing.com.png"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+        </a>
+        <strong>
+            <p class="frase">EN UNA GALAXIA MUY, MUY LEJANA.... </p>
+        </strong>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li><a href="../index.html" class="header__item">Inicio</a></li>
+                <li><a href="tienda.html" class="header__item">Tienda</a></li>
+                <li><a href="proyectos.html" class="header__item">Proyectos</a></li>
+                <li><a href="equipo.html" class="header__item">Personajes</a></li>
+                <li><a href="contacto.html" class="header__item">Suscripcion</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<body>
+<form action="#" method="get" enctype="text/plain"class="form">
+    <legend class="legend">
+       <strong>INFORMACION</strong>
+    </legend>
+    <div>
+        <label class="legend__label" for="username"><strong>Nombre</strong></label>
+        <input type="text" name="username" id="username">
+    </div>
+    <span>
+        <label class="legend__label" for="apellido"> <strong> Apellido </strong></label>
+        <input type="text" name="apellido" id="apellido">
+    </span>
+<div>
+    <label class="legend__label" for="edad"> <strong> Edad </strong></label>
+    <input type="number" name="edad" id="edad" max="100" min="1">
+</div>
+<div>
+    <label for="fecha"><strong>Fecha De Nacimiento</strong></label>
+    <input type="date" name="fecha" id="fecha">
+</div>
+<div>
+    <label class="legend__label" for="usermail"><strong> Email </strong></label>
+    <input type="email" name="usermail" id="usermail">
+</div>
+<div>
+    <label for="tel"><strong>Numero de telefono</strong></label>
+ <input type="tel" name="tel" id="tel">
+</div>
+    <strong class="genero">Genero</strong>
+    
+    <div>    
+    <label for="genero"><strong>Mujer</strong></label>
+        <input type="checkbox" name="genero" id="genero">
+        <label for="genero__dos"><strong>Hombre</strong></label>
+        <input type="checkbox" name="genero__dos" id="genero__dos">
+        <label for="genero__tres"><strong>Sin genero</strong></label>
+        <input type="checkbox" name="genero__tres" id="genero__tres">
+    </div>
+    <strong class="pregunta">¿De que lado de la fuerza estas?</strong>
+</div>
+    <div>
+    <label for="eleccion__uno"><strong>Lado Luminoso</strong></label>
+    <input type="checkbox" name="eleccion__uno" id="eleccion__uno">
+    <label for="eleccion"><strong>Lado oscuro</strong></label>
+    <input type="checkbox" name="eleccion" id="eleccion">
+</div>
+<div>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Restablecer">
+</div>
+</form>
+<script>
+    AOS.init()
+</script>
+</body>
+</html>
