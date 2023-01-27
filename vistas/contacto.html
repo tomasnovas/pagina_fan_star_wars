@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suscripcion</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/compilado.css">
 </head>
 <body class="body">
     <header class="header" >
@@ -36,24 +36,24 @@
     <legend class="legend">
        <strong>INFORMACION</strong>
     </legend>
-    <div>
-        <label class="legend__label" for="username"><strong>Nombre</strong></label>
+    <div class="formulario">
+        <label for="username"><strong>Nombre</strong></label>
         <input type="text" name="username" id="username">
     </div>
-    <span>
-        <label class="legend__label" for="apellido"> <strong> Apellido </strong></label>
+    <span class="formulario">
+        <label for="apellido"> <strong> Apellido </strong></label>
         <input type="text" name="apellido" id="apellido">
     </span>
-<div>
-    <label class="legend__label" for="edad"> <strong> Edad </strong></label>
+<div class="formulario">
+    <label  for="edad"> <strong> Edad </strong></label>
     <input type="number" name="edad" id="edad" max="100" min="1">
 </div>
-<div>
+<div class="formulario">
     <label for="fecha"><strong>Fecha De Nacimiento</strong></label>
     <input type="date" name="fecha" id="fecha">
 </div>
 <div>
-    <label class="legend__label" for="usermail"><strong> Email </strong></label>
+    <label for="usermail"><strong> Email </strong></label>
     <input type="email" name="usermail" id="usermail">
 </div>
 <div>
@@ -62,7 +62,7 @@
 </div>
     <strong class="genero">Genero</strong>
     
-    <div>    
+    <div class=" formulario__selector">    
     <label for="genero"><strong>Mujer</strong></label>
         <input type="checkbox" name="genero" id="genero">
         <label for="genero__dos"><strong>Hombre</strong></label>
@@ -72,13 +72,13 @@
     </div>
     <strong class="pregunta">¿De que lado de la fuerza estas?</strong>
 </div>
-    <div>
+    <div class="formulario__selector">
     <label for="eleccion__uno"><strong>Lado Luminoso</strong></label>
     <input type="checkbox" name="eleccion__uno" id="eleccion__uno">
     <label for="eleccion"><strong>Lado oscuro</strong></label>
     <input type="checkbox" name="eleccion" id="eleccion">
 </div>
-<div>
+<div class="formulario__selector">
     <input type="submit" value="Enviar">
     <input type="reset" value="Restablecer">
 </div>

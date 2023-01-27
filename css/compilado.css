@@ -1,0 +1,246 @@
+body {
+  background-image: url(../img/nuevofondo\(2\).jpg);
+  margin: 0rem;
+}
+body .frase {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: gold;
+  margin-block-start: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__img {
+  width: 400px;
+}
+.header__nav {
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  background-color: #112a44;
+}
+.header__list {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.header__item {
+  color: white;
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background: #112a44;
+}
+.hero__img {
+  width: 20rem;
+}
+.hero__txt {
+  width: 19rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.txt__condiciones {
+  text-align-last: center;
+  -webkit-user-modify: read-write-plaintext-only;
+  background: #112a44;
+  margin-top: auto;
+  color: #b5b5b5;
+}
+
+/*PRINCIPIO CONTACTOS*/
+.form {
+  display: flex;
+  flex-flow: wrap;
+  border-style: outset;
+  width: 25rem;
+  height: 33rem;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: space-between;
+  margin: auto;
+  margin-top: 3rem;
+  background: linear-gradient(45deg, black, transparent);
+}
+
+.legend {
+  display: flex;
+  width: inherit;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: #112a44;
+  color: white;
+}
+
+.genero {
+  width: inherit;
+  text-align: center;
+  background: #112a44;
+  color: white;
+}
+
+.pregunta {
+  width: inherit;
+  text-align: center;
+  background: linear-gradient(301deg, black, transparent);
+}
+
+.formulario {
+  display: flex;
+  width: -webkit-fill-available;
+}
+
+__selector {
+  margin: auto;
+}
+
+/*FINAL CONTACTOS*/
+/*PRINCIPIO EQUIPO*/
+.section__pj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #112a44;
+}
+
+.img__personajes {
+  width: 30rem;
+}
+
+.personajes__txt {
+  margin: auto;
+  text-align: -webkit-center;
+  color: white;
+}
+
+.video__1 {
+  display: flex;
+  margin: auto;
+  width: 49rem;
+}
+
+/*@media screen and( min-width: 768px)*/
+/*@media screen and( max-width: 768px)*/
+@media screen and (max-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #112a44;
+    flex-flow: wrap;
+  }
+  .header__img {
+    width: 400px;
+  }
+  body {
+    background-image: url(../img/nuevofondo\(2\).jpg);
+    background-attachment: fixed;
+  }
+  .hero__txt {
+    width: 18rem;
+    font-size: larger;
+    margin: 1rem;
+  }
+  .form {
+    display: flex;
+    flex-flow: wrap;
+    border-style: outset;
+    width: 21rem;
+    height: 23rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #112a44;
+  }
+  .header__img {
+    width: 400px;
+  }
+  body {
+    background-image: url(../img/nuevofondo\(2\).jpg);
+    background-attachment: fixed;
+  }
+  .form {
+    display: flex;
+    flex-flow: wrap;
+    border-style: outset;
+    width: 21rem;
+    height: 23rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__list {
+    display: table-column;
+    justify-content: space-around;
+    color: white;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #112a44;
+    flex-direction: column;
+    margin: auto;
+  }
+  .header__img {
+    width: 400px;
+  }
+  body {
+    background-image: url(../img/nuevofondo\(2\).jpg);
+    background-attachment: fixed;
+  }
+  .form {
+    display: flex;
+    flex-flow: wrap;
+    border-style: outset;
+    width: 21rem;
+    height: 23rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+  .video__1 {
+    display: flex;
+    margin: auto;
+    width: 26rem;
+  }
+}
+
+/*# sourceMappingURL=compilado.css.map */

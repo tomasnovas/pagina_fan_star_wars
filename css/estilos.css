@@ -63,29 +63,40 @@ background:#112a44;
     display: flex;
     flex-flow: wrap;
     border-style: outset;
-    width: 21rem;
-    height: 23rem;
-    color:rgb(255, 255, 255);
+    width: 25rem;
+    height: 33rem;
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    align-content: space-between;
+    margin: auto;
+    margin-top: 3rem;
+    background: linear-gradient(45deg, black, transparent);
 }
 .legend{
     display: flex;
     width: inherit;
     align-items: flex-start;
     justify-content: space-around;
-    background: lightseagreen;
-    color: black;
+    background: #112a44;
+    color: white;
 }
 .genero{
     width: inherit;
     text-align: center;
-   background-color: lightseagreen;
-    color: black;
+    background: #112a44;
+    color: white;
 }
 .pregunta{
     width: inherit;
     text-align: center;
     background: linear-gradient(301deg, black, transparent);
+}
+.formulario{
+    display:flex ;
+    width: -webkit-fill-available; 
+}
+.formulario__selector{
+    margin: auto;
 }
 /*FINAL CONTACTOS*/
 /*PRINCIPIO EQUIPO*/
@@ -222,3 +233,4 @@ background:#112a44;
             width: 26rem;
         }
     }
+    
