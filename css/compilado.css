@@ -61,7 +61,6 @@ body .frase {
   color: #b5b5b5;
 }
 
-/*PRINCIPIO CONTACTOS*/
 .form {
   display: flex;
   flex-flow: wrap;
@@ -102,13 +101,10 @@ body .frase {
   display: flex;
   width: -webkit-fill-available;
 }
-
-__selector {
+.formulario__selector {
   margin: auto;
 }
 
-/*FINAL CONTACTOS*/
-/*PRINCIPIO EQUIPO*/
 .section__pj {
   display: flex;
   flex-wrap: wrap;
@@ -116,10 +112,12 @@ __selector {
   background-color: #112a44;
 }
 
-.img__personajes {
+.personajes {
+  display: none;
+}
+.personajes__img {
   width: 30rem;
 }
-
 .personajes__txt {
   margin: auto;
   text-align: -webkit-center;
@@ -132,8 +130,6 @@ __selector {
   width: 49rem;
 }
 
-/*@media screen and( min-width: 768px)*/
-/*@media screen and( max-width: 768px)*/
 @media screen and (max-width: 1024px) {
   .header {
     display: flex;

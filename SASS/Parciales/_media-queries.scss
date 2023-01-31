@@ -1,0 +1,112 @@
+@media screen and  (max-width:1024px)
+        {
+            .header{   
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+            }
+            .hero{
+                display:flex ;
+                justify-content: center;
+                color: white;
+                background-color:#112a44;
+                flex-flow: wrap;
+            }
+            .header__img{
+                width: 400px;
+            }
+            body{
+                background-image:url(../img/nuevofondo\(2\).jpg);
+                background-attachment: fixed;
+            }
+            .hero__txt
+            {
+                width: 18rem;
+                font-size: larger;
+                margin: 1rem;
+            }
+            .form{
+                display: flex;
+                flex-flow: wrap;
+                border-style: outset;
+                width: 21rem;
+                height: 23rem;
+                color:rgb(255, 255, 255);
+                font-family: Arial, Helvetica, sans-serif;
+                margin: auto;
+            }
+        }
+        @media screen and ( max-width: 768px) 
+        {
+            .header{   
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+            }
+            .hero{
+                display:flex ;
+                justify-content: center;
+                color: white;
+                background-color:#112a44;
+            }
+            .header__img{
+                width: 400px;
+            }
+            body{
+                background-image:url(../img/nuevofondo\(2\).jpg);
+                background-attachment: fixed;
+            }
+            .form{
+                display: flex;
+                flex-flow: wrap;
+                border-style: outset;
+                width: 21rem;
+                height: 23rem;
+                color:rgb(255, 255, 255);
+                font-family: Arial, Helvetica, sans-serif;
+                margin: auto;
+            }
+        }
+        @media screen and  (max-width:425px)
+        {
+            .header{   
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+            }
+            .header__list{ 
+                display: table-column;
+                justify-content: space-around;
+                color:white;  
+            }
+            .hero{
+                display:flex ;
+                justify-content: center;
+                color: white;
+                background-color:#112a44 ;
+                flex-direction: column;
+                margin: auto;
+            }
+            .header__img{
+                width: 400px;
+            }
+            body{
+                background-image:url(../img/nuevofondo\(2\).jpg);
+                background-attachment: fixed;
+            }    
+            .form{
+                display: flex;
+                flex-flow: wrap;
+                border-style: outset;
+                width: 21rem;
+                height: 23rem;
+                color:rgb(255, 255, 255);
+                font-family: Arial, Helvetica, sans-serif;
+                margin: auto;
+            }
+            .video__1{
+                display: flex;
+                margin: auto;
+                width: 26rem;
+            }
+        }
