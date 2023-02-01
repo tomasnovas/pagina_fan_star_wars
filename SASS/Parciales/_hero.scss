@@ -1,17 +1,17 @@
 .hero{
-    display:flex ;
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
     flex-wrap: wrap;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    background:#112a44;
-    
     &__img{
-        width: 20rem;
+        width: 100%;
+        border-style: groove;
     }    
     &__txt{
-        width: 19rem;
         text-align: center;
-        font-family: sans-serif;
+        color: white;
+        font-size: x-large;
+        font-family: monospace;
     }
     }
     

@@ -1,19 +1,20 @@
-.personajes{
-    display: none;
+.personajes{ 
+    display: flex;
+    flex-direction: column;
+    
     &__img{
-        width: 30rem;
+        width: 45%;
+    }
+    &__name{
+        font-size: x-large;
+        color: white;
+        text-decoration-line: underline;
     }
     &__txt{
-        margin: auto;
-        text-align: -webkit-center;
-        color: white;
+    display: flex;
+    width: 46rem;
+    color: white;
+    font-size: x-large;
+    text-align: -webkit-center;
     }
-
-
-
-
-
-
-
-
 }
