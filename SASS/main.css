@@ -46,7 +46,6 @@ body .frase {
   flex-wrap: wrap;
 }
 .hero__img {
-  width: 100%;
   border-style: groove;
 }
 .hero__txt {
@@ -56,14 +55,6 @@ body .frase {
   font-family: monospace;
 }
 
-.hero2 {
-  display: grid;
-  width: 100%;
-  justify-content: space-evenly;
-  background: rgba(17, 42, 68, 0.6117647059);
-  margin: 1%;
-}
-
 .condiciones {
   background: #112a44;
 }
@@ -71,10 +62,28 @@ body .frase {
 .txt__condiciones {
   text-align: center;
   background: #112a44;
-  margin-top: auto;
   color: #b5b5b5;
-  width: 38%;
   margin: auto;
+  padding: 1rem 2rem;
+}
+
+.redes {
+  font-size: x-large;
+  padding: 1rem;
+}
+
+.redes__img {
+  width: 40px;
+}
+
+.redes__txt {
+  margin: auto;
+  color: #fcdf2b;
+  font-size: x-large;
+}
+
+.redes__link {
+  display: inline-block;
 }
 
 .inicio {
@@ -90,8 +99,6 @@ body .frase {
 
 .textoprincipal-2 {
   text-align: center;
-  width: 55%;
-  margin: auto;
   font-size: larger;
   margin-top: revert;
 }
@@ -145,20 +152,22 @@ body .frase {
   justify-content: center;
   background-color: rgba(17, 42, 68, 0.6117647059);
   margin: 1rem;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
 }
 
 .personajes {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .personajes__img {
-  width: 45%;
+  width: 540px;
 }
 .personajes__name {
   font-size: x-large;
   color: white;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 .personajes__txt {
   display: flex;
@@ -166,6 +175,10 @@ body .frase {
   color: white;
   font-size: x-large;
   text-align: -webkit-center;
+}
+
+.personajes2 {
+  margin-top: 800px;
 }
 
 .estilo__video {
@@ -191,7 +204,7 @@ body .frase {
 .estilos__imagenes {
   display: flex;
   flex-wrap: nowrap;
-  width: 21%;
+  width: 400px;
   flex-direction: column;
 }
 
@@ -230,6 +243,7 @@ body .frase {
   .inicio {
     background: rgba(17, 42, 68, 0.6117647059);
     color: white;
+    overflow: hidden;
   }
   .hero {
     display: flex;
@@ -239,7 +253,7 @@ body .frase {
   .header__img {
     width: 400px;
   }
-  body {
+  .body {
     background-image: url(../img/nuevofondo\(2\).jpg);
     background-attachment: fixed;
   }
@@ -261,7 +275,7 @@ body .frase {
   .estilos__imagenes {
     display: flex;
     flex-wrap: nowrap;
-    width: 21%;
+    width: 400px;
     flex-direction: column;
   }
   .tienda__estilos {
@@ -276,17 +290,16 @@ body .frase {
   .personajes {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 4%;
+    align-items: center;
   }
   .personajes__txt {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 35%;
+    width: 58%;
   }
   .personajes__img {
-    width: 35%;
+    width: 540px;
   }
   .estilo__video {
     display: flex;
@@ -327,23 +340,18 @@ body .frase {
   .estilos__imagenes {
     display: flex;
     flex-wrap: nowrap;
-    width: 21%;
+    width: 290px;
     flex-direction: column;
   }
   .personajes {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 4%;
   }
   .personajes__txt {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 35%;
-  }
-  .personajes__img {
-    width: 35%;
   }
   .estilo__video {
     display: flex;
@@ -364,7 +372,6 @@ body .frase {
   .estilos__imagenes {
     display: flex;
     flex-wrap: nowrap;
-    width: 24%;
     flex-direction: column;
   }
   .tienda__estilos {
@@ -379,17 +386,12 @@ body .frase {
   .personajes {
     display: flex;
     flex-direction: column;
-    width: 142%;
-    margin: 4%;
   }
   .personajes__txt {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 35%;
-  }
-  .personajes__img {
-    width: 35%;
+    width: 85%;
   }
   .estilo__video {
     display: flex;
@@ -411,7 +413,6 @@ body .frase {
   .estilos__imagenes {
     display: flex;
     flex-wrap: nowrap;
-    width: 21%;
     flex-direction: column;
   }
   .tienda__estilos {
@@ -426,22 +427,18 @@ body .frase {
   }
   .estilos__imagenes {
     display: flex;
-    width: 50%;
   }
   .personajes {
     display: flex;
     flex-direction: column;
-    width: 142%;
-    margin: 4%;
   }
   .personajes__txt {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 35%;
   }
   .personajes__img {
-    width: 35%;
+    width: 340px;
   }
   .estilo__video {
     display: flex;
@@ -456,7 +453,6 @@ body .frase {
   .estilos__imagenes {
     display: flex;
     flex-wrap: nowrap;
-    width: 40%;
     flex-direction: column;
   }
   .personajes {
@@ -469,10 +465,10 @@ body .frase {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 100%;
+    width: 87%;
   }
   .personajes__img {
-    width: 100%;
+    width: 340px;
   }
   .estilo__video {
     display: flex;
@@ -500,10 +496,10 @@ body .frase {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 100%;
+    width: 98%;
   }
   .personajes__img {
-    width: 100%;
+    width: 340px;
   }
   .estilo__video {
     display: flex;
@@ -530,7 +526,7 @@ body .frase {
   .header__img {
     width: 400px;
   }
-  body {
+  .body {
     background-image: url(../img/nuevofondo\(2\).jpg);
     background-attachment: fixed;
   }
@@ -556,7 +552,7 @@ body .frase {
   }
   .estilos__imagenes {
     display: flex;
-    width: 40%;
+    width: 245px;
   }
   .personajes {
     display: flex;
@@ -568,10 +564,10 @@ body .frase {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 100%;
+    width: 98%;
   }
   .personajes__img {
-    width: 100%;
+    width: 340px;
   }
   .estilo__video {
     display: flex;
@@ -581,6 +577,19 @@ body .frase {
     display: flex;
     width: 100%;
     margin: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .personajes__img {
+    width: 275px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .section__pj {
+    display: flex;
+    background-color: rgba(17, 42, 68, 0.6117647059);
+    justify-content: center;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 425px) {
@@ -602,8 +611,23 @@ body .frase {
     flex-direction: column;
     margin: auto;
   }
+  .hero__txt {
+    width: auto;
+    color: white;
+    font-size: x-large;
+    font-family: monospace;
+  }
+  .hero__img {
+    width: 330px;
+    border-style: groove;
+  }
   .header__img {
     width: 400px;
+  }
+  .textoprincipal-2 {
+    text-align: center;
+    font-size: larger;
+    margin-top: revert;
   }
   body {
     background-image: url(../img/nuevofondo\(2\).jpg);
@@ -631,7 +655,7 @@ body .frase {
   }
   .estilos__imagenes {
     display: flex;
-    width: 50%;
+    width: 155px;
   }
   .section__pj {
     display: flex;
@@ -652,7 +676,7 @@ body .frase {
     width: 86%;
   }
   .personajes__img {
-    width: 85%;
+    width: 305px;
   }
   .estilo__video {
     display: flex;
@@ -661,6 +685,57 @@ body .frase {
   .estilo__video.video__1 {
     display: flex;
     width: 35%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__list {
+    display: table-column;
+    justify-content: space-around;
+    color: white;
+  }
+  .header__img {
+    width: 100%;
+  }
+  .textoprincipal-2 {
+    text-align: center;
+    font-size: larger;
+    margin-top: revert;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #112a44;
+    flex-direction: column;
+    margin: auto;
+  }
+  .hero__txt {
+    width: 88%;
+    font-size: larger;
+    margin: 1rem;
+  }
+  .hero__img {
+    width: 330px;
+    border-style: groove;
+  }
+  .body {
+    background-image: url(../img/nuevofondo\(2\).jpg);
+    background-attachment: fixed;
+  }
+  .form {
+    display: flex;
+    flex-flow: wrap;
+    border-style: outset;
+    width: 98%;
+    height: 24rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
   }
 }/*# sourceMappingURL=main.css.map */

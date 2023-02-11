@@ -7,7 +7,8 @@
       .inicio{
         background: rgba(17, 42, 68, 0.6117647059);
         color: white;
-    }
+        overflow: hidden;
+      }
       .hero {
         display: flex;
         color: white;
@@ -16,7 +17,7 @@
       .header__img {
         width: 400px;
       }
-      body {
+      .body {
         background-image: url(../img/nuevofondo\(2\).jpg);
         background-attachment: fixed;
       }
@@ -38,7 +39,7 @@
     .estilos__imagenes {
         display: flex;
         flex-wrap: nowrap;
-        width: 21%;
+        width: 400px;
         flex-direction: column;
     }
     .tienda__estilos {
@@ -53,17 +54,16 @@
     .personajes {
       display: flex;
       flex-direction: column;
-      width: 100%;
-      margin: 4%;
+      align-items: center;
   }
   .personajes__txt {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 35%;
+    width: 58%;
 }
   .personajes__img {
-    width: 35%;
+    width: 540px;
 }  
 .estilo__video {
   display: flex;
@@ -104,23 +104,18 @@
     .estilos__imagenes {
         display: flex;
         flex-wrap: nowrap;
-        width: 21%;
+        width: 290px;
         flex-direction: column;
     }
     .personajes {
       display: flex;
       flex-direction: column;
       width: 100%;
-      margin: 4%;
   }
   .personajes__txt {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 35%;
-}
-  .personajes__img {
-    width: 35%;
 } 
 .estilo__video{
   display: flex;
@@ -142,7 +137,6 @@
     .estilos__imagenes {
         display: flex;
         flex-wrap: nowrap;
-        width: 24%;
         flex-direction: column;
     }
     .tienda__estilos{
@@ -157,18 +151,13 @@
      .personajes {
       display: flex;
       flex-direction: column;
-      width: 142%;
-      margin: 4%;
   }
   .personajes__txt {
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 35%;
-}
-  .personajes__img {
-    width: 35%;
-} 
+    width: 85%;
+  }
 .estilo__video{
   display: flex;
   justify-content: center;}
@@ -189,7 +178,6 @@
   .estilos__imagenes {
         display: flex;
         flex-wrap: nowrap;
-        width: 21%;
         flex-direction: column;
     }
     .tienda__estilos{
@@ -204,23 +192,19 @@
         }
         .estilos__imagenes{
         display: flex;
-        width: 50%;
         }
         .personajes {
           display: flex;
           flex-direction: column;
-          width: 142%;
-          margin: 4%;
       }
       .personajes__txt {
         color: white;
         font-size: x-large;
         text-align: -webkit-center;
-        width: 35%;
     }
-      .personajes__img {
-        width: 35%;
-    } 
+    .personajes__img {
+      width: 340px
+    }  
     .estilo__video{
       display: flex;
       justify-content: center;
@@ -235,7 +219,6 @@
     .estilos__imagenes {
         display: flex;
         flex-wrap: nowrap;
-        width: 40%;
         flex-direction: column;
     }  
     .personajes {
@@ -248,10 +231,10 @@
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 100%;
+    width: 87%;
 }
   .personajes__img {
-  width: 100%;
+    width: 340px
 }  
 .estilo__video {
   display: flex;
@@ -280,10 +263,10 @@
     color: white;
     font-size: x-large;
     text-align: -webkit-center;
-    width: 100%;
+    width: 98%;
 }
   .personajes__img {
-  width: 100%;
+    width: 340px;
 }  
 .estilo__video {
   display: flex;
@@ -310,7 +293,7 @@
     .header__img {
       width: 400px;
     }
-    body {
+    .body {
       background-image: url(../img/nuevofondo\(2\).jpg);
       background-attachment: fixed;
     }
@@ -336,7 +319,7 @@
         }
         .estilos__imagenes{
         display: flex;
-        width: 40%;
+        width: 245px;
         }
         .personajes {
           display: flex;
@@ -348,10 +331,10 @@
         color: white;
         font-size: x-large;
         text-align: -webkit-center;
-        width: 100%;
+        width: 98%;
     }
       .personajes__img {
-      width: 100%;
+        width: 340px;
     }  
     .estilo__video {
       display: flex;
@@ -363,7 +346,21 @@
       margin: auto;
     }
       }
-  @media screen and (max-width: 425px){
+@media screen and (max-width:700px) {
+  .personajes__img {
+    width: 275px
+}  
+}  
+@media screen and (max-width:575px) {
+  .section__pj {
+    display: flex;
+    background-color: rgba(17, 42, 68, 0.6117647059);
+    justify-content: center;
+    flex-direction: column;
+}
+  
+}   
+@media screen and (max-width: 425px){
     .header {
       display: flex;
       flex-direction: column;
@@ -382,9 +379,24 @@
       flex-direction: column;
       margin: auto;
     }
+    .hero__txt {
+      width: auto;
+      color: white;
+      font-size: x-large;
+      font-family: monospace;
+  }
+    .hero__img{
+      width: 330px;
+      border-style: groove;
+    }
     .header__img {
       width: 400px;
     }
+    .textoprincipal-2 {
+      text-align: center;
+      font-size: larger;
+      margin-top: revert;
+  }
     body {
       background-image: url(../img/nuevofondo\(2\).jpg);
       background-attachment: fixed;
@@ -411,7 +423,7 @@
     }
     .estilos__imagenes{
     display: flex;
-    width: 50%;
+    width: 155px;
     }
     .section__pj {
       display: flex;
@@ -432,7 +444,7 @@
     width: 86%;
 }
 .personajes__img {
-  width: 85%;
+  width: 305px;
 }  
 .estilo__video {
   display: flex;
@@ -442,5 +454,56 @@
   display: flex;
   width: 35%;
   margin: auto;
+}
+}
+@media screen and (max-width: 320px){
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__list {
+    display: table-column;
+    justify-content: space-around;
+    color: white;
+  }
+  .header__img {
+    width: 100%;
+  }
+  .textoprincipal-2 {
+    text-align: center;
+    font-size: larger;
+    margin-top: revert;
+}
+  .hero {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #112a44;
+    flex-direction: column;
+    margin: auto;
+  }
+  .hero__txt {
+    width: 88%;
+    font-size: larger;
+    margin: 1rem;
+}
+.hero__img {
+  width: 330px;
+  border-style: groove;
+}
+  .body {
+    background-image: url(../img/nuevofondo\(2\).jpg);
+    background-attachment: fixed;
+  }
+  .form {
+    display: flex;
+    flex-flow: wrap;
+    border-style: outset;
+    width: 98%;
+    height: 24rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
 }
 }
